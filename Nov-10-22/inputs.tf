@@ -1,6 +1,6 @@
 variable "region" {
     type    = string
-    default = "ap-southeast-1"
+    default = "ap-south-1"
 }
 
 variable "network_cidr" {
@@ -17,6 +17,6 @@ variable "subnet_name_tags" {
 
 variable "bucket_name" {
     type    = string
-    default = "qts3khajatf3example1"
+    default = "qts3uitf3example1"
 
 } 
