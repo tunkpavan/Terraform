@@ -1,2 +1,2 @@
 # Terraform
-Terraform files to deply an infra in the cloud
+Terraform files to deploy an infra in the cloud
