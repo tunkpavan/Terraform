@@ -17,6 +17,11 @@ variable "subnet_name_tags" {
 
 variable "bucket_name" {
     type    = string
-    default = "qts3uitf3example1"
+    default = "qts3uitfy3example1"
 
 } 
+
+variable "public_subnets" {
+    type = list(string)
+    default = [ "web1", "web2" ]
+}
