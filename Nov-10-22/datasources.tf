@@ -24,9 +24,7 @@ data "aws_subnets" "app_subnets" {
       values    = [aws_vpc.ntier.id]
     }
 
-    depends_on = [
-      aws_key_pair.keypair
-    ]
+ 
   
 }
 
@@ -40,8 +38,6 @@ data "aws_subnets" "web_subnets" {
       values    = [aws_vpc.ntier.id]
     }
 
-    depends_on = [
-      aws_key_pair.keypair
-    ]
+ 
   
 }
